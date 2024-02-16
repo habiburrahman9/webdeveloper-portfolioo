@@ -1,0 +1,40 @@
+/* common sared style */
+
+body{
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 727;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100
+      }
+/* nav trlated style */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.text-primary{
+    color: #fd6e0a;
+}
+.btn-primary{
+    border-radius: 5px;
+    background-color: #fd6e0a;
+    color: white;
+    border: 0px;
+    font-weight: 700px;
+    padding: 13px 15px;
+
+}
+nav>ul{
+display: flex;
+align-items: center;
+}
+nav li{
+list-style: none;
+margin-right: 50px;
+}
+nav a{
+    text-decoration: none;
+}
